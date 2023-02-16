@@ -40,6 +40,7 @@ public class Guess {
 		  }
 		  count-=1;
 	  }
+		  if(count==0)
 		  System.out.prinln("Your Score in "+j+"is Zero");
 		  
 	  }
