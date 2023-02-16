@@ -13,10 +13,11 @@ public class Guess {
 		System.out.println("Number will be between 1 to 100");
 		System.out.println("You have 6 chances to guesss number");
 		System.out.println("Max score will be 600");
-	  int count=6;
+	  
 	  for(int j=1;j<=2;j++){
 		  int min=1;
 			int max=100;
+		  int count=6;
 			int  randomnum=(int) (Math.random()*(max-min+1)+min);		  
 		  System.out.println("\nIt is "+ j + "round out of two ");
 	  for(int i=0;i<6;i++){
@@ -39,6 +40,8 @@ public class Guess {
 		  }
 		  count-=1;
 	  }
+		  System.out.prinln("Your Score in "+j+"is Zero");
+		  
 	  }
 		
 	}
